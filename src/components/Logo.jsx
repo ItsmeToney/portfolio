@@ -15,7 +15,7 @@ export default function Logo({ Icon, color, initialValue }) {
         },
       }}
     >
-      <Icons color={color} Icon={Icon} size={{ sm: "5xl", lg: "7xl" }} />
+      <Icons color={color} Icon={Icon} className="text-5xl lg:text-7xl" />
     </motion.div>
   );
 }

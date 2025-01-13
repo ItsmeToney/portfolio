@@ -34,7 +34,7 @@ export default function Education() {
                   transition={{ duration: 1, delay: index * 0.2 }}
                 >
                   <span className="absolute flex justify-center items-center left-[-1rem]  right-0 h-8 w-8  bg-neutral-800 rounded-full ">
-                    <Icons Icon={data.icon} />
+                    <Icons Icon={data.icon} className="" />
                   </span>
                 </motion.span>
 
