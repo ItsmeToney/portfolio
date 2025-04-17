@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import heroImage from "../assets/tony_james.png";
+// import heroImage from "../assets/tony_james.png";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 
@@ -15,16 +15,16 @@ export default function Hero() {
     <>
       <section
         id="home"
-        className="flex flex-col lg:flex-row  pt-20 pb-10 gap-8 lg:gap-16 "
+        className="flex flex-col lg:flex-row justify-center items-center  pt-20 pb-10 gap-8 lg:gap-16 "
       >
-        <motion.img
+        {/* <motion.img
           src={heroImage}
           alt="profile photo"
           className="h-[20rem] lg:h-[32rem] lg:pl-28 object-contain  "
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 1 }}
-        />
+        /> */}
         <div className="flex flex-col gap-4 lg:gap-8  justify-center items-center">
           <motion.p
             className="text-base font-extra light lg:text-lg text-neutral-300 "
